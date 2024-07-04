@@ -4,7 +4,7 @@ Welcome to Python Hangman, a classic game developed in Python and designed to ru
 ### Access the Project
 You can access the live version of my project here.
 
-## Project Description
+### Project Description
 This Hangman game was developed to provide a fun and educational experience, helping players improve their word-guessing skills and expand their knowledge of programming terms. It utilizes a list of programming-related words, each with an associated hint to aid players in their guesses.
 
 The game is ideal for programming students, developers, and tech enthusiasts looking to test their knowledge in an engaging and interactive manner.
