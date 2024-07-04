@@ -6,8 +6,9 @@ Welcome to Python Hangman, a classic game developed in Python and designed to ru
 
 ### Project Description
 This Hangman game was developed to provide a fun and educational experience, helping players improve their word-guessing skills and expand their knowledge of programming terms. It utilizes a list of programming-related words, each with an associated hint to aid players in their guesses.
-
 The game is ideal for programming students, developers, and tech enthusiasts looking to test their knowledge in an engaging and interactive manner.
+<img width="1009" alt="Captura de ecrã 2024-07-02, às 20 00 48" src="https://github.com/elsei123/BattleshipGame/assets/164704332/7b27a2a3-026c-4c3f-af21-ec76cee7e4e3">
+
 
 ## Technologies Used
 - __Python:__ Primary language used to develop the game, chosen for its simplicity and versatility.
@@ -23,14 +24,27 @@ The game is ideal for programming students, developers, and tech enthusiasts loo
 - __Start the Game:__ Execute the hangman.py script. This can be done in your local development environment's terminal or through the Heroku simulated terminal.
   
 - __Enter Your Name:__ When prompted, enter your name. This personalizes the game experience, making it more engaging.
+<img width="368" alt="Captura de ecrã 2024-07-02, às 20 01 38" src="https://github.com/elsei123/BattleshipGame/assets/164704332/e11ed38b-bd93-4592-84ce-9ac9db67ebb5">
+
 
 - __Guess the Word:__ You will see a series of underscores representing the letters of the word to be guessed. Enter a letter to try to guess it.
 
+  <img width="546" alt="Captura de ecrã 2024-07-02, às 20 02 08" src="https://github.com/elsei123/BattleshipGame/assets/164704332/8c87481f-f651-4bdd-9fe7-118fa5cf2ecb">
+
+
 - __Receive Hints:__ If you guess incorrectly, you'll receive a hint about the word. This helps guide your future guesses.
+
+  <img width="736" alt="Captura de ecrã 2024-07-02, às 20 03 23" src="https://github.com/elsei123/BattleshipGame/assets/164704332/65c07ff1-3bbf-483b-8093-945796395ed5">
+
 
 - __Keep Playing:__ Continue guessing until you guess the word or run out of attempts. The game provides ongoing feedback on the word's state and the number of attempts remaining.
 
 - __Win or Lose:__ If you guess all letters of the word before running out of attempts, you win. Otherwise, you lose and the word is revealed.
+
+<img width="539" alt="Captura de ecrã 2024-07-02, às 20 07 25" src="https://github.com/elsei123/BattleshipGame/assets/164704332/afa7680d-0d2b-4814-829e-57a8bcccbd77">
+
+<img width="465" alt="Captura de ecrã 2024-07-02, às 20 04 52" src="https://github.com/elsei123/BattleshipGame/assets/164704332/a92700bd-e553-4e37-afff-965be4354d55">
+
 
 ## Features
 ### Current Features
