@@ -40,6 +40,9 @@ The game is ideal for programming students, developers, and tech enthusiasts loo
 
 - __Keep Playing:__ Continue guessing until you guess the word or run out of attempts. The game provides ongoing feedback on the word's state and the number of attempts remaining.
 
+  <img width="432" alt="Captura de ecrã 2024-07-04, às 20 49 21" src="https://github.com/elsei123/BattleshipGame/assets/164704332/8119efc9-c25a-43b8-91ae-5d9630f01940">
+
+
 - __Win or Lose:__ If you guess all letters of the word before running out of attempts, you win. Otherwise, you lose and the word is revealed.
   <img width="539" alt="Captura de ecrã 2024-07-02, às 20 07 25" src="https://github.com/elsei123/BattleshipGame/assets/164704332/afa7680d-0d2b-4814-829e-57a8bcccbd77">
 
