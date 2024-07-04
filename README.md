@@ -10,11 +10,11 @@ This Hangman game was developed to provide a fun and educational experience, hel
 The game is ideal for programming students, developers, and tech enthusiasts looking to test their knowledge in an engaging and interactive manner.
 
 ## Technologies Used
-- Python: Primary language used to develop the game, chosen for its simplicity and versatility.
+- __Python:__ Primary language used to develop the game, chosen for its simplicity and versatility.
 
-- Heroku: Platform used to deploy the game, making it easily accessible and executable online.
+- __Heroku:__ Platform used to deploy the game, making it easily accessible and executable online.
 
-- Code Institute's Simulated Terminal: Environment where the game runs, providing a realistic and interactive terminal experience.
+- __Code Institute's Simulated Terminal:__ Environment where the game runs, providing a realistic and interactive terminal experience.
 
 ## How to Play
 
