@@ -1,32 +1,109 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Python Hangman Game
+Welcome to Python Hangman, a classic game developed in Python and designed to run in the Code Institute's simulated terminal on Heroku. This game allows users to guess programming-related words one letter at a time, with hints provided after incorrect guesses. The goal is to guess the word before running out of attempts.
 
-Welcome,
+### Access the Project
+You can access the live version of my project here.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **May 14, 2024**
+## Project Description
+This Hangman game was developed to provide a fun and educational experience, helping players improve their word-guessing skills and expand their knowledge of programming terms. It utilizes a list of programming-related words, each with an associated hint to aid players in their guesses.
 
-## Reminders
+The game is ideal for programming students, developers, and tech enthusiasts looking to test their knowledge in an engaging and interactive manner.
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
+## Technologies Used
+Python: Primary language used to develop the game, chosen for its simplicity and versatility.
+Heroku: Platform used to deploy the game, making it easily accessible and executable online.
+Code Institute's Simulated Terminal: Environment where the game runs, providing a realistic and interactive terminal experience.
 
-## Creating the Heroku app
+## How to Play
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+__Step-by-Step Guide__
 
-1. `heroku/python`
-2. `heroku/nodejs`
+- Start the Game: Execute the hangman.py script. This can be done in your local development environment's terminal or through the Heroku simulated terminal.
+  
+- Enter Your Name: When prompted, enter your name. This personalizes the game experience, making it more engaging.
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+- Guess the Word: You will see a series of underscores representing the letters of the word to be guessed. Enter a letter to try to guess it.
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+- Receive Hints: If you guess incorrectly, you'll receive a hint about the word. This helps guide your future guesses.
 
-Connect your GitHub repository and deploy as normal.
+- Keep Playing: Continue guessing until you guess the word or run out of attempts. The game provides ongoing feedback on the word's state and the number of attempts remaining.
 
-## Constraints
+- Win or Lose: If you guess all letters of the word before running out of attempts, you win. Otherwise, you lose and the word is revealed.
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+## Features
+__Current Features__
 
----
+- Random Word Selection: The game selects a random word with a hint from a predefined list, ensuring variety in each new game.
 
-Happy coding!
+- Display Guessed Letters: Shows the current state of the word with guessed letters and underscores for unguessed letters, allowing the player to track their progress.
+
+- Hints: Provides a hint after an incorrect guess, increasing the player's chances of success.
+
+- Input Validation: Ensures that only valid alphabetic characters are accepted as guesses, preventing invalid and duplicate entries.
+
+__Future Features__
+
+- Word Categories: Add different categories for word selection, allowing players to choose specific themes like "Programming Languages," "Development Tools," etc.
+  
+- Difficulty Levels: Implement difficulty levels such as easy, medium, and hard to challenge players according to their skills.
+  
+- Multiplayer Mode: Enable two or more players to play together, making the game more social and competitive.
+
+## Data Model
+
+The game utilizes a simple yet effective data model:
+
+- List of Words and Hints: A list of tuples where each tuple contains a word and its corresponding hint.
+
+- Set of Guessed Letters: A set to store letters that have been correctly guessed by the player, facilitating the checking and updating of the word's state.
+
+- Remaining Attempts: A counter for the remaining attempts before the game ends, providing a limit to the number of errors the player can make.
+
+## Testing
+
+The project has been rigorously tested to ensure a smooth gameplay experience with no bugs:
+
+__Testing Methodology__
+
+- Cross-Platform Execution: The game has been tested on different operating systems such as Windows, macOS, and Linux to ensure compatibility.
+
+- Input Validation: We tested valid inputs (alphabetic letters) and invalid inputs (numbers, symbols, multiple letters) to ensure the game responds correctly.
+
+- Hint Display: We verified that hints are displayed correctly after incorrect guesses, helping the player to guess the word.
+
+- End Game Messages: We confirmed that the game ends correctly with a victory or defeat message, depending on the player's performance.
+
+__Test Results__
+
+- Guess Validation: Fixed an issue where non-alphabetic characters were accepted as guesses.
+
+- End Game Messages: Resolved a bug where the game did not correctly display victory/defeat messages.
+
+__Remaining Bugs__
+
+- No Known Bugs: Currently, there are no known bugs in the game.
+
+## Deployment
+
+This project has been deployed using the Code Institute's simulated terminal on Heroku, providing a robust and accessible development environment.
+
+__Deployment Steps__
+
+- Fork or Clone: Fork or clone this repository.
+
+- New App on Heroku: Create a new app on Heroku.
+
+- Configure Buildpacks: Set up buildpacks for Python and NodeJS in that order.
+
+- Link to Repository: Link your Heroku app to the GitHub repository.
+
+- Deploy: Click on Deploy in the Heroku dashboard to deploy the project.
+
+__Detailed Deployment Steps__
+
+Buildpacks: On Heroku, buildpacks are scripts run when the app is deployed. Configure the Python buildpack first, followed by NodeJS.
+Link to Repository: This allows Heroku to monitor changes in the repository and automatically update the app.
+Deploy: After setting up buildpacks and linking the repository, click Deploy to start the deployment process. Heroku will compile the app and make it publicly available.
+## Credits
+- List of Words and Hints: Inspired by common programming terms.
+- Code Institute: Provided the simulated terminal and deployment guidance, facilitating the development and deployment of the project.
