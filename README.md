@@ -16,7 +16,7 @@ Code Institute's Simulated Terminal: Environment where the game runs, providing 
 
 ## How to Play
 
-__Step-by-Step Guide__
+### Step-by-Step Guide
 
 - Start the Game: Execute the hangman.py script. This can be done in your local development environment's terminal or through the Heroku simulated terminal.
   
@@ -31,7 +31,7 @@ __Step-by-Step Guide__
 - Win or Lose: If you guess all letters of the word before running out of attempts, you win. Otherwise, you lose and the word is revealed.
 
 ## Features
-__Current Features__
+### Current Features
 
 - Random Word Selection: The game selects a random word with a hint from a predefined list, ensuring variety in each new game.
 
@@ -41,7 +41,7 @@ __Current Features__
 
 - Input Validation: Ensures that only valid alphabetic characters are accepted as guesses, preventing invalid and duplicate entries.
 
-__Future Features__
+### Future Features
 
 - Word Categories: Add different categories for word selection, allowing players to choose specific themes like "Programming Languages," "Development Tools," etc.
   
@@ -63,7 +63,7 @@ The game utilizes a simple yet effective data model:
 
 The project has been rigorously tested to ensure a smooth gameplay experience with no bugs:
 
-__Testing Methodology__
+### Testing Methodology
 
 - Cross-Platform Execution: The game has been tested on different operating systems such as Windows, macOS, and Linux to ensure compatibility.
 
@@ -73,13 +73,13 @@ __Testing Methodology__
 
 - End Game Messages: We confirmed that the game ends correctly with a victory or defeat message, depending on the player's performance.
 
-__Test Results__
+### Test Results
 
 - Guess Validation: Fixed an issue where non-alphabetic characters were accepted as guesses.
 
 - End Game Messages: Resolved a bug where the game did not correctly display victory/defeat messages.
 
-__Remaining Bugs__
+### Remaining Bugs
 
 - No Known Bugs: Currently, there are no known bugs in the game.
 
@@ -87,7 +87,7 @@ __Remaining Bugs__
 
 This project has been deployed using the Code Institute's simulated terminal on Heroku, providing a robust and accessible development environment.
 
-__Deployment Steps__
+### Deployment Steps
 
 - Fork or Clone: Fork or clone this repository.
 
@@ -99,7 +99,7 @@ __Deployment Steps__
 
 - Deploy: Click on Deploy in the Heroku dashboard to deploy the project.
 
-__Detailed Deployment Steps__
+### Detailed Deployment Steps
 
 Buildpacks: On Heroku, buildpacks are scripts run when the app is deployed. Configure the Python buildpack first, followed by NodeJS.
 Link to Repository: This allows Heroku to monitor changes in the repository and automatically update the app.
