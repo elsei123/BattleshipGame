@@ -2,7 +2,7 @@
 Welcome to Python Hangman, a classic game developed in Python and designed to run in the Code Institute's simulated terminal on Heroku. This game allows users to guess programming-related words one letter at a time, with hints provided after incorrect guesses. The goal is to guess the word before running out of attempts.
 
 ### Access the Project
-You can access the live version of my project here.
+[You can access the live version of my project here.](https://codeguess-hangman-17434baed82d.herokuapp.com/)
 
 ### Project Description
 This Hangman game was developed to provide a fun and educational experience, helping players improve their word-guessing skills and expand their knowledge of programming terms. It utilizes a list of programming-related words, each with an associated hint to aid players in their guesses.
