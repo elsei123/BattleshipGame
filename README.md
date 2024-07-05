@@ -1,9 +1,7 @@
 # CodeGuess Hangman
 
-This Hangman game was developed to provide a fun and educational experience, helping players improve their word-guessing skills and expand their knowledge of programming terms. It utilizes a list of programming-related words, each with an associated hint to aid players in their guesses.
-
+This Hangman game was developed to provide a fun and educational experience, helping players improve their word-guessing skills and expand their knowledge of programming terms.
 This game allows users to guess programming-related words one letter at a time, with hints provided after incorrect guesses. The goal is to guess the word before running out of attempts.
-
 The game is ideal for programming students, developers, and tech enthusiasts looking to test their knowledge in an engaging and interactive manner.
 
 [You can access the live version of my project here.](https://codeguess-hangman-17434baed82d.herokuapp.com/)
@@ -21,9 +19,7 @@ The game is ideal for programming students, developers, and tech enthusiasts loo
 ## How to Play
 
 ### Step-by-Step Guide
-
-- __Start the Game:__ Execute the hangman.py script. This can be done in your local development environment's terminal or through the Heroku simulated terminal.
-  
+ 
 - __Enter Your Name:__ When prompted, enter your name. This personalizes the game experience, making it more engaging.
 
   <img width="368" alt="Captura de ecrã 2024-07-02, às 20 01 38" src="https://github.com/elsei123/BattleshipGame/assets/164704332/e11ed38b-bd93-4592-84ce-9ac9db67ebb5">
