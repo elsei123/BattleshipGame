@@ -83,13 +83,15 @@ The project has been rigorously tested to ensure a smooth gameplay experience wi
 
 - __Cross-Platform Execution:__ The game has been tested on different operating systems such as Windows, macOS, and Linux to ensure compatibility.
 
-- __Input Validation:__ We tested valid inputs (alphabetic letters) and invalid inputs (numbers, symbols, multiple letters) to ensure the game responds correctly.
+- __Input Validation:__ I tested valid inputs (alphabetic letters) and invalid inputs (numbers, symbols, multiple letters) to ensure the game responds correctly.
 
-- __Hint Display:__ We verified that hints are displayed correctly after incorrect guesses, helping the player to guess the word.
+- __Hint Display:__ I verified that hints are displayed correctly after incorrect guesses, helping the player to guess the word.
 
-- __End Game Messages:__ We confirmed that the game ends correctly with a victory or defeat message, depending on the player's performance.
+- __End Game Messages:__ I confirmed that the game ends correctly with a victory or defeat message, depending on the player's performance.
 
-### Test Results
+## Bugs 
+
+### solved Bugs 
 
 - __Guess Validation:__ Fixed an issue where non-alphabetic characters were accepted as guesses.
 
@@ -99,6 +101,10 @@ The project has been rigorously tested to ensure a smooth gameplay experience wi
 
 - __No Known Bugs:__ Currently, there are no known bugs in the game.
 
+## Validator Testing
+- __PEP8__
+- - No erros were returned from [PEP8](https://pep8ci.herokuapp.com/)
+  
 ## Deployment
 
 This project has been deployed using the Code Institute's simulated terminal on Heroku, providing a robust and accessible development environment.
@@ -114,14 +120,6 @@ This project has been deployed using the Code Institute's simulated terminal on 
 - __Link to Repository:__ Link your Heroku app to the GitHub repository.
 
 - __Deploy:__ Click on Deploy in the Heroku dashboard to deploy the project.
-
-### Detailed Deployment Steps
-
-- __Buildpacks:__ On Heroku, buildpacks are scripts run when the app is deployed. Configure the Python buildpack first, followed by NodeJS.
-
-- __Link to Repository:__ This allows Heroku to monitor changes in the repository and automatically update the app.
-
-- __Deploy:__ After setting up buildpacks and linking the repository, click Deploy to start the deployment process. Heroku will compile the app and make it publicly available.
 
 ## Credits
 
